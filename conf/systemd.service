@@ -1,5 +1,5 @@
 [Unit]
-Description=Owncast
+Description=Owncast: live video and web chat server
 After=network.target
 
 [Service]
