@@ -1,0 +1,50 @@
+{
+    "name": "Owncast",
+    "id": "owncast",
+    "packaging_format": 1,
+    "description": {
+        "en": "Self-hosted live video and web chat server for use with existing broadcasting software",
+        "fr": "Serveur de vidéo en direct et de chat Web auto-hébergé à utiliser avec un logiciel de diffusion"
+    },
+    "version": "0.0.7~ynh1",
+    "url": "https://owncast.online/",
+    "upstream": {
+        "license": "MIT",
+        "website": "https://owncast.online/",
+        "demo": "https://watch.owncast.online/",
+        "admindoc": "https://owncast.online/docs/",
+        "userdoc": "https://yunohost.org/apps",
+        "code": "https://github.com/owncast"
+    },
+    "license": "MIT",
+    "maintainer": {
+        "name": "",
+        "email": ""
+    },
+    "requirements": {
+        "yunohost": ">= 4.2.4"
+    },
+    "multi_instance": false,
+    "services": [
+        "nginx"
+    ],
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "type": "domain",
+                "example": "example.com"
+            },
+            {
+                "name": "admin",
+                "type": "user",
+                "example": "johndoe"
+            },
+            {
+                "name": "is_public",
+                "type": "boolean",
+                "default": true
+            }
+        ]
+    }
+}

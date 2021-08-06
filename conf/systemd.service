@@ -1,0 +1,15 @@
+[Unit]
+Description=Owncast
+After=network.target
+
+[Service]
+Type=simple
+User=__APP__
+Group=__APP__
+WorkingDirectory=__FINALPATH__/
+ExecStart=__FINALPATH__/owncast -webserverport __PORT__ -configFile __FINALPATH__/config.yaml
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
