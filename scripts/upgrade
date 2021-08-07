@@ -21,6 +21,7 @@ path_url=$(ynh_app_setting_get --app=$app --key=path)
 final_path=$(ynh_app_setting_get --app=$app --key=final_path)
 stream_port=$(ynh_app_setting_get --app=$app --key=stream_port)
 architecture=$(ynh_detect_arch)
+port=$(ynh_app_setting_get --app=$app --key=port)
 
 #=================================================
 # CHECK VERSION
