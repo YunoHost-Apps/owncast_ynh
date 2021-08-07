@@ -65,7 +65,11 @@ ynh_app_setting_set --app=$app --key=port --value=$port
 
 # Find an available port for stream
 stream_port=$(ynh_find_port --port=1935)
-ynh_app_setting_set --app=$app --key=turn_port --value=$stream_port
+ynh_app_setting_set --app=$app --key=stream_port --value=$stream_port
+
+# Open the port
+ynh_script_progression --message="Configuring firewall..." --weight=1
+ynh_exec_warn_less yunohost firewall allow --no-upnp TCP $stream_port
 
 #=================================================
 # INSTALL DEPENDENCIES
@@ -144,7 +148,9 @@ yunohost service add $app --description="Self-hosted live video and web chat ser
 ynh_script_progression --message="Starting a systemd service..." --weight=1
 
 # Start a systemd service
-ynh_systemd_action --service_name=$app --action="start" --log_path="/var/log/$app/$app.log" --line_match="The web admin interface is available at /admin."
+ynh_systemd_action --service_name=$app --action="start" --log_path="/var/log/$app/$app.log"
+
+sleep 30
 
 #=================================================
 # SETUP SSOWAT

@@ -102,7 +102,9 @@ yunohost service add $app --description="Self-hosted live video and web chat ser
 #=================================================
 ynh_script_progression --message="Starting a systemd service..." --weight=3
 
-ynh_systemd_action --service_name=$app --action="start" --log_path="/var/log/$app/$app.log" --line_match="The web admin interface is available at /admin."
+ynh_systemd_action --service_name=$app --action="start" --log_path="/var/log/$app/$app.log"
+
+sleep 30
 
 #=================================================
 # GENERIC FINALIZATION
