@@ -1,15 +1,15 @@
 ## Configuration
 
-You can configure Owncast by editing the configuration file `/var/www/owncast/config.yaml` using the [documentation](https://owncast.online/docs/), or with the admin page: `domain.ltd/admin` with `admin` and `abc123` as credential.
+Modifiez la clé de streaming par défaut `streamingKey: abc123` en éditant le fichier de configuration `/var/www/owncast/config.yaml` en utilisant la [documentation](https://owncast.online/docs/), ou avec la page d'administration : `domain.ltd/admin` avec `admin` et `abc123` comme identifiant. 
 
-## Streaming app
+## Application de diffusion en continu
 
-OBS can be used as streaming video app: https://obsproject.com/
+OBS peut être utilisé comme application de streaming vidéo : https://obsproject.com/
 
-1. Install OBS or Streamlabs OBS and get it working with your local setup.
-1. Open OBS Settings and go to “Stream”.
-1. Select “Custom…” as the service.
-1. Enter the URL of the server running your streaming service in the format of `rtmp://myserver.net/live`.
-1. Enter your “Stream Key” that matches your key file.
-1. Start the server.
-1. Press “Start Streaming” (OBS) or “Go Live” (Streamlabs) on OBS.
+1. Installez OBS ou Streamlabs OBS et faites-le fonctionner avec votre configuration locale.
+1. Ouvrez les paramètres OBS et allez dans "Stream".
+1. Sélectionnez « Personnalisé… » comme service.
+1. Entrez l'URL du serveur exécutant votre service de streaming au format `rtmp://myserver.net/live`.
+1. Saisissez votre « Clé de diffusion » qui correspond à votre clé de streaming.
+1. Démarrez le serveur.
+1. Appuyez sur « Démarrer le streaming » (OBS) ou « Go Live » (Streamlabs) sur OBS. 
