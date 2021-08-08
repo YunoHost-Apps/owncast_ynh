@@ -126,6 +126,14 @@ ynh_script_progression --message="Configuring a systemd service..." --weight=1
 ynh_add_systemd_config
 
 #=================================================
+# SETUP APPLICATION PASSWORD
+#=================================================
+
+pushd $final_path
+	ynh_exec_as $app $final_path/owncast -streamkey $password
+popd
+
+#=================================================
 # GENERIC FINALIZATION
 #=================================================
 # SETUP LOGROTATE

@@ -52,6 +52,15 @@
                     "fr": "Si cette case est cochée, Owncast sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
                 },
                 "default": true
+            },
+            {
+                "name": "password",
+                "type": "password",
+                "help": {
+                    "en": "Admin password and the steamkey.",
+                    "fr": "Mot de passe admin et streamkey."
+                },
+                "example": "Choose a password"
             }
         ]
     }
