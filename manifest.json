@@ -52,8 +52,8 @@
                 "name": "password",
                 "type": "password",
                 "help": {
-                    "en": "Admin password and the steamkey.",
-                    "fr": "Mot de passe admin et streamkey."
+                    "en": "This is the password for connecting to the admin page as well as the Stream Key.",
+                    "fr": "Ceci est le mot de passe pour se connecter à la page d'administration ainsi que la Stream Key."
                 },
                 "example": "Choose a password"
             }
