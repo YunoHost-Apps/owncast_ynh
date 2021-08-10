@@ -120,7 +120,9 @@ ynh_add_systemd_config
 # SETUP APPLICATION PASSWORD
 #=================================================
 
-ynh_exec_as $app $final_path/owncast -streamkey $password
+pushd $final_path
+	ynh_exec_as $app $final_path/owncast -streamkey $password
+popd
 
 #=================================================
 # GENERIC FINALIZATION
@@ -146,6 +148,7 @@ ynh_script_progression --message="Starting a systemd service..." --weight=1
 
 # Start a systemd service
 ynh_systemd_action --service_name=$app --action="start" --log_path="/var/log/$app/$app.log"
+
 sleep 30
 
 #=================================================
