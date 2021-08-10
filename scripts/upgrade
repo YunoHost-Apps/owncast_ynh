@@ -112,7 +112,7 @@ yunohost service add $app --description="Self-hosted live video and web chat ser
 ynh_script_progression --message="Starting a systemd service..." --weight=3
 
 ynh_systemd_action --service_name=$app --action="start" --log_path="/var/log/$app/$app.log" 
-sleep 30
+sleep 20
 
 #=================================================
 # RELOAD NGINX
