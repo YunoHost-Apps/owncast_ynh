@@ -100,16 +100,6 @@ chmod -R o-rwx "$final_path"
 chown -R $app:www-data "$final_path"
 
 #=================================================
-# ADD A CONFIGURATION
-#=================================================
-ynh_script_progression --message="Adding a configuration file..." --weight=1
-
-ynh_add_config --template="../conf/config-default.yaml" --destination="$final_path/config.yaml"
-
-chmod 400 "$final_path/config.yaml"
-chown $app:$app "$final_path/config.yaml"
-
-#=================================================
 # NGINX CONFIGURATION
 #=================================================
 ynh_script_progression --message="Configuring NGINX web server..." --weight=1
