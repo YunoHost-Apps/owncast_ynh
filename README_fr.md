@@ -41,7 +41,6 @@ OBS peut être utilisé comme application de streaming vidéo : https://obsproje
 ## Documentations et ressources
 
 * Site officiel de l'app : https://owncast.online/
-* Documentation officielle utilisateur : https://yunohost.org/apps
 * Documentation officielle de l'admin : https://owncast.online/docs/
 * Dépôt de code officiel de l'app : https://github.com/owncast
 * Documentation YunoHost pour cette app : https://yunohost.org/app_owncast
