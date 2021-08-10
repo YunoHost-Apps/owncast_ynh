@@ -1,6 +1,6 @@
 ## Configuration
 
-Change the default streaming key with your own `streamingKey: abc123` by editing the configuration file `/var/www/owncast/config.yaml` using the [documentation](https://owncast.online/docs/), or with the admin page: `domain.ltd/admin` with `admin` and `abc123` as credential.
+Change the default streaming key with your own `abc123` by editing the admin page: `domain.ltd/admin` with `admin` and `abc123` as credential.
 
 ## Streaming app
 
