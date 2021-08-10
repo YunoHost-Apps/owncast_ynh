@@ -13,7 +13,6 @@
         "website": "https://owncast.online/",
         "demo": "https://watch.owncast.online/",
         "admindoc": "https://owncast.online/docs/",
-        "userdoc": "https://yunohost.org/apps",
         "code": "https://github.com/owncast"
     },
     "license": "MIT",
