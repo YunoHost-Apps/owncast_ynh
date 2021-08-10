@@ -51,8 +51,8 @@
                 "name": "password",
                 "type": "password",
                 "help": {
-                    "en": "This is the password for connecting to the admin page as well as the Stream Key.",
-                    "fr": "Ceci est le mot de passe pour se connecter à la page d'administration ainsi que la Stream Key."
+                    "en": "This is the password for connecting to the admin page as well as the Stream Key. (Only alphanumeric characters are accepted)",
+                    "fr": "Ceci est le mot de passe pour se connecter à la page d'administration ainsi que la Stream Key. (Seuls les caractères alphanumériques sont acceptés)"
                 },
                 "example": "Choose a password"
             }
