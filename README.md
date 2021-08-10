@@ -41,6 +41,7 @@ OBS can be used as streaming video app: https://obsproject.com/
 1. Enter the URL of the server running your streaming service in the format of `rtmp://myserver.net/live`.
 1. Enter your **Stream Key** that matches your key file.
 1. Press **Start Streaming** (OBS) or **Go Live** (Streamlabs) on OBS.
+
 ## Documentation and resources
 
 * Official app website: https://owncast.online/
