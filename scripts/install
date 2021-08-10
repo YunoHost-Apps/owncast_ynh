@@ -28,6 +28,7 @@ domain=$YNH_APP_ARG_DOMAIN
 path_url="/"
 is_public=$YNH_APP_ARG_IS_PUBLIC
 admin=$YNH_APP_ARG_ADMIN
+password=$YNH_APP_ARG_PASSWORD
 architecture=$(ynh_detect_arch)
 
 app=$YNH_APP_INSTANCE_NAME
@@ -114,6 +115,14 @@ ynh_script_progression --message="Configuring a systemd service..." --weight=1
 
 # Create a dedicated systemd config
 ynh_add_systemd_config
+
+#=================================================
+# SETUP APPLICATION PASSWORD
+#=================================================
+
+pushd $final_path
+	ynh_exec_as $app $final_path/owncast -streamkey $password
+popd
 
 #=================================================
 # GENERIC FINALIZATION
