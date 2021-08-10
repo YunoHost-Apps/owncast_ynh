@@ -25,7 +25,7 @@ Serveur de vidéo en direct et de chat Web auto-hébergé à utiliser avec un lo
 
 ## Configuration
 
-Modifiez la clé de streaming par défaut `streamingKey: abc123` en éditant le fichier de configuration `/var/www/owncast/config.yaml` en utilisant la [documentation](https://owncast.online/docs/), ou avec la page d'administration : `domain.ltd/admin` avec `admin` et `abc123` comme identifiant. 
+Modifiez la clé de streaming par défaut `abc123` en éditant la page d'administration : `domain.ltd/admin` avec `admin` et `abc123` comme identifiant. 
 
 ## Application de diffusion en continu
 
