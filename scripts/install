@@ -117,6 +117,7 @@ ynh_add_systemd_config
 #=================================================
 # SETUP APPLICATION PASSWORD
 #=================================================
+ynh_script_progression --message="Configuring a Stream Key..." --weight=1
 
 pushd $final_path
 	ynh_exec_as $app $final_path/owncast -streamkey $password
