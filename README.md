@@ -29,7 +29,8 @@ Self-hosted live video and web chat server for use with existing broadcasting so
 
 ## Configuration
 
-Change the default streaming key with your own `abc123` by editing the admin page: `domain.ltd/admin` with `admin` and `abc123` as credential.
+
+Change the default streaming key with your own in the admin page: `domain.ltd/admin` with `admin` and `abc123` as credential.
 
 ## Streaming app
 
