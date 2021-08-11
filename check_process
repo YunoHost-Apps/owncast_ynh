@@ -12,7 +12,7 @@
 		setup_private=1
 		setup_public=1
 		upgrade=1
-		#upgrade=1	from_commit=CommitHash
+		#upgrade=1	from_commit=4eab5026853627bed955945968753378ea41f5ad
 		backup_restore=1
 		multi_instance=0
 		change_url=1
@@ -20,6 +20,6 @@
 Email=
 Notification=none
 ;;; Upgrade options
-	; commit=CommitHash
-		name=Name and date of the commit.
+	; commit=4eab5026853627bed955945968753378ea41f5ad
+		name= Merge pull request #1
 		manifest_arg=domain=DOMAIN&path=PATH&admin=USER&language=fr&is_public=1&password=1Strong-Password
