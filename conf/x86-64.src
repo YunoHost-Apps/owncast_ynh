@@ -1,5 +1,5 @@
 SOURCE_URL=https://github.com/owncast/owncast/releases/download/v0.0.8/owncast-0.0.8-linux-64bit.zip
-SOURCE_SUM=6e15620f70063ba62c2b9deeb82fc974eaac49f68cf2806b99ab19515390c6ea
+SOURCE_SUM=e40fea62624bd76b2ea14abab10ace1f19a671795f2b0b161244ecd1f6f4c149
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=zip
 SOURCE_IN_SUBDIR=false
