@@ -69,7 +69,7 @@ then
 	ynh_script_progression --message="Upgrading source files..." --weight=5
 
 	# Download, check integrity, uncompress and patch the source from app.src
-	ynh_setup_source --dest_dir="$final_path" --source_id="$architecture" --keep="$final_path/config.yaml"
+	ynh_setup_source --dest_dir="$final_path" --source_id="$architecture"
 fi
 
 chmod 750 "$final_path"
@@ -112,7 +112,7 @@ yunohost service add $app --description="Self-hosted live video and web chat ser
 ynh_script_progression --message="Starting a systemd service..." --weight=3
 
 ynh_systemd_action --service_name=$app --action="start" --log_path="/var/log/$app/$app.log" 
-sleep 30
+sleep 20
 
 #=================================================
 # RELOAD NGINX

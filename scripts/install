@@ -27,7 +27,7 @@ ynh_abort_if_errors
 domain=$YNH_APP_ARG_DOMAIN
 path_url="/"
 is_public=$YNH_APP_ARG_IS_PUBLIC
-admin=$YNH_APP_ARG_ADMIN
+password=$YNH_APP_ARG_PASSWORD
 architecture=$(ynh_detect_arch)
 
 app=$YNH_APP_INSTANCE_NAME
@@ -50,7 +50,6 @@ ynh_script_progression --message="Storing installation settings..." --weight=1
 
 ynh_app_setting_set --app=$app --key=domain --value=$domain
 ynh_app_setting_set --app=$app --key=path --value=$path_url
-ynh_app_setting_set --app=$app --key=admin --value=$admin
 
 #=================================================
 # STANDARD MODIFICATIONS
@@ -100,16 +99,6 @@ chmod -R o-rwx "$final_path"
 chown -R $app:www-data "$final_path"
 
 #=================================================
-# ADD A CONFIGURATION
-#=================================================
-ynh_script_progression --message="Adding a configuration file..." --weight=1
-
-ynh_add_config --template="../conf/config-default.yaml" --destination="$final_path/config.yaml"
-
-chmod 400 "$final_path/config.yaml"
-chown $app:$app "$final_path/config.yaml"
-
-#=================================================
 # NGINX CONFIGURATION
 #=================================================
 ynh_script_progression --message="Configuring NGINX web server..." --weight=1
@@ -124,6 +113,15 @@ ynh_script_progression --message="Configuring a systemd service..." --weight=1
 
 # Create a dedicated systemd config
 ynh_add_systemd_config
+
+#=================================================
+# SETUP APPLICATION PASSWORD
+#=================================================
+ynh_script_progression --message="Configuring a Stream Key..." --weight=1
+
+pushd $final_path
+	ynh_exec_as $app $final_path/owncast -streamkey $password
+popd
 
 #=================================================
 # GENERIC FINALIZATION
@@ -149,8 +147,7 @@ ynh_script_progression --message="Starting a systemd service..." --weight=1
 
 # Start a systemd service
 ynh_systemd_action --service_name=$app --action="start" --log_path="/var/log/$app/$app.log"
-
-sleep 30
+sleep 20
 
 #=================================================
 # SETUP SSOWAT
