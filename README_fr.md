@@ -13,7 +13,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 Serveur de vidéo en direct et de chat Web auto-hébergé à utiliser avec un logiciel de diffusion
 
-**Version incluse :** 0.0.8~ynh1
+**Version incluse :** 0.0.8~ynh2
 
 **Démo :** https://watch.owncast.online/
 
