@@ -17,7 +17,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Self-hosted live video and web chat server for use with existing broadcasting software
 
-**Shipped version:** 0.0.8~ynh1
+**Shipped version:** 0.0.8~ynh2
 
 **Demo:** https://watch.owncast.online/
 
@@ -42,6 +42,9 @@ OBS can be used as streaming video app: https://obsproject.com/
 1. Enter your **Stream Key** that matches your key file.
 1. Press **Start Streaming** (OBS) or **Go Live** (Streamlabs) on OBS.
 
+## Standalone chat mode
+
+`https://live.domain.ltd/index-standalone-chat-readwrite.html`
 ## Documentation and resources
 
 * Official app website: https://owncast.online/
