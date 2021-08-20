@@ -17,7 +17,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Self-hosted live video and web chat server for use with existing broadcasting software
 
-**Shipped version:** 0.0.8~ynh2
+**Shipped version:** 0.0.8~ynh3
 
 **Demo:** https://watch.owncast.online/
 
