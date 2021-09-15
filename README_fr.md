@@ -11,9 +11,9 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 ## Vue d'ensemble
 
-Serveur de vidéo en direct et de chat Web auto-hébergé à utiliser avec un logiciel de diffusion
+Owncast est un serveur de diffusion en direct et de chat open source, auto-hébergé, décentralisé et à utilisateur unique pour exécuter vos propres diffusions en direct dans un style similaire aux grandes options grand public. Il offre une propriété complète sur votre contenu, votre interface, votre modération et votre audience.
 
-**Version incluse :** 0.0.8~ynh3
+**Version incluse :** 0.0.8~ynh4
 
 **Démo :** https://watch.owncast.online/
 
