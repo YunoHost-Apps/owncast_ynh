@@ -66,8 +66,11 @@ case $asset_url in
   *".zip"*)
     src="x86-64"
     ;;
-  *)
-    src=""
+  *".zip"*)
+    src="arm7"
+    ;;
+  *".zip"*)
+    src="arm64"
     ;;
 esac
 
