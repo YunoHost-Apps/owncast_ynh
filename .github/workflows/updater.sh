@@ -23,9 +23,9 @@ repo=$(cat manifest.json | jq -j '.upstream.code|split("https://github.com/")[1]
 version=$(curl --silent "https://api.github.com/repos/$repo/releases" | jq -r '.[] | select( .prerelease != true ) | .tag_name' | sort -V | tail -1)
 assets=($(curl --silent "https://api.github.com/repos/$repo/releases" | jq -r '[ .[] | select(.tag_name=="'$version'").assets[].browser_download_url ] | join(" ") | @sh' | tr -d "'"))
 
-if [[ ${version:0:1} == "v" || ${version:0:1} == "V" ]]; then
-     version=${version:1}
-fi
+# if [[ ${version:0:1} == "v" || ${version:0:1} == "V" ]]; then
+#     version=${version:1}
+# fi
 
 # Setting up the environment variables
 echo "Current version: $current_version"
@@ -64,13 +64,10 @@ echo "Handling asset at $asset_url"
 # Leave $src empty to ignore the asset
 case $asset_url in
   *".zip"*)
-    src="arm64"
-    ;;
-  *".zip"*)
-    src="arm7"
-    ;;
-  *".zip"*)
     src="x86-64"
+    ;;
+  *)
+    src=""
     ;;
 esac
 
@@ -101,8 +98,7 @@ SOURCE_URL=$asset_url
 SOURCE_SUM=$checksum
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=$extension
-SOURCE_IN_SUBDIR=false
-SOURCE_EXTRACT=true
+SOURCE_IN_SUBDIR=true
 EOT
 echo "... conf/$src.src updated"
 
