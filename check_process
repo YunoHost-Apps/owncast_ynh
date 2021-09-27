@@ -3,7 +3,7 @@
 		domain="domain.tld"
 		path="/path"
 		is_public=1
-		password="1Strong-Password"
+		password="1StrongPassword"
 	; Checks
 		pkg_linter=1
 		setup_sub_dir=0
