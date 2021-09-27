@@ -6,14 +6,14 @@
         "en": "Self-hosted live video and web chat server for use with existing broadcasting software",
         "fr": "Serveur de vidéo en direct et de chat Web auto-hébergé à utiliser avec un logiciel de diffusion"
     },
-    "version": "0.0.8~ynh4",
+    "version": "0.0.9~ynh1",
     "url": "https://owncast.online/",
     "upstream": {
         "license": "MIT",
         "website": "https://owncast.online/",
         "demo": "https://watch.owncast.online/",
         "admindoc": "https://owncast.online/docs/",
-        "code": "https://github.com/owncast"
+        "code": "https://github.com/owncast/owncast"
     },
     "license": "MIT",
     "maintainer": {
@@ -35,8 +35,7 @@
                 "help": {
                     "en": "Owncast needs to be installed in a dedicated domain or sub-domain.",
                     "fr": "Owncast doit être installé dans un domaine ou sous-domaine dédié."
-                },
-                "example": "owncast.example.com"
+                }
             },
             {
                 "name": "is_public",
@@ -46,15 +45,6 @@
                     "fr": "Si cette case est cochée, Owncast sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
                 },
                 "default": true
-            },
-            {
-                "name": "password",
-                "type": "password",
-                "help": {
-                    "en": "This is the password for connecting to the admin page as well as the Stream Key. (Only alphanumeric characters are accepted)",
-                    "fr": "Ceci est le mot de passe pour se connecter à la page d'administration ainsi que la Stream Key. (Seuls les caractères alphanumériques sont acceptés)"
-                },
-                "example": "Choose a password"
             }
         ]
     }

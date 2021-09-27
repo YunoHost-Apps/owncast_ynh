@@ -63,13 +63,13 @@ echo "Handling asset at $asset_url"
 # Here we base the source file name upon a unique keyword in the assets url (admin vs. update)
 # Leave $src empty to ignore the asset
 case $asset_url in
-  *".zip"*)
+  "owncast-"*"-linux-64bit.zip"*)
     src="x86-64"
     ;;
-  *".zip"*)
+  "owncast-"*"-linux-arm7.zip"*)
     src="arm7"
     ;;
-  *".zip"*)
+  "owncast-"*"-linux-arm64.zip"*)
     src="arm64"
     ;;
 esac
@@ -101,7 +101,8 @@ SOURCE_URL=$asset_url
 SOURCE_SUM=$checksum
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=$extension
-SOURCE_IN_SUBDIR=true
+SOURCE_IN_SUBDIR=false
+SOURCE_EXTRACT=true
 EOT
 echo "... conf/$src.src updated"
 

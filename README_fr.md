@@ -13,7 +13,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 Owncast est un serveur de diffusion en direct et de chat open source, auto-hébergé, décentralisé et à utilisateur unique pour exécuter vos propres diffusions en direct dans un style similaire aux grandes options grand public. Il offre une propriété complète sur votre contenu, votre interface, votre modération et votre audience.
 
-**Version incluse :** 0.0.8~ynh4
+**Version incluse :** 0.0.9~ynh1
 
 **Démo :** https://watch.owncast.online/
 
@@ -25,7 +25,7 @@ Owncast est un serveur de diffusion en direct et de chat open source, auto-hébe
 
 ## Configuration
 
-Les paramètres sont accessibles dans la page d'administration :  : `domain.ltd/admin` avec `admin` et `votre_stream_key` comme identifiant. 
+Vous pouvez configurer Owncast dans la page d'administration : `domain.ltd/admin` avec `admin` et `abc123` comme identifiant. N'oubliez pas de changer la clé de flux (Stream Key).
 
 ## Application de diffusion en continu
 
@@ -42,7 +42,7 @@ OBS peut être utilisé comme application de streaming vidéo : https://obsproje
 
 * Site officiel de l'app : https://owncast.online/
 * Documentation officielle de l'admin : https://owncast.online/docs/
-* Dépôt de code officiel de l'app : https://github.com/owncast
+* Dépôt de code officiel de l'app : https://github.com/owncast/owncast
 * Documentation YunoHost pour cette app : https://yunohost.org/app_owncast
 * Signaler un bug : https://github.com/YunoHost-Apps/owncast_ynh/issues
 

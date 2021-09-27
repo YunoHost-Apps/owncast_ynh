@@ -1,6 +1,6 @@
 ## Configuration
 
-Settings are accessible in admin page: `domain.ltd/admin` with `admin` and `your_stream_key` as credential.
+You can configure Owncast in the admin page: `domain.ltd/admin` with `admin` and `abc123` as credential. Don't forget to change the stream key.
 
 ## Streaming app
 
