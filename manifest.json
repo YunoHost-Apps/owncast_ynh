@@ -45,14 +45,6 @@
                     "fr": "Si cette case est cochée, Owncast sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
                 },
                 "default": true
-            },
-            {
-                "name": "password",
-                "type": "password",
-                "help": {
-                    "en": "This is the password for connecting to the admin page as well as the Stream Key. (Only alphanumeric characters are accepted)",
-                    "fr": "Ceci est le mot de passe pour se connecter à la page d'administration ainsi que la Stream Key. (Seuls les caractères alphanumériques sont acceptés)"
-                }
             }
         ]
     }
