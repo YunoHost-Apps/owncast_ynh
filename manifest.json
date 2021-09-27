@@ -13,7 +13,7 @@
         "website": "https://owncast.online/",
         "demo": "https://watch.owncast.online/",
         "admindoc": "https://owncast.online/docs/",
-        "code": "https://github.com/owncast"
+        "code": "https://github.com/owncast/owncast"
     },
     "license": "MIT",
     "maintainer": {
