@@ -49,7 +49,7 @@ OBS can be used as streaming video app: https://obsproject.com/
 
 * Official app website: https://owncast.online/
 * Official admin documentation: https://owncast.online/docs/
-* Upstream app code repository: https://github.com/owncast
+* Upstream app code repository: https://github.com/owncast/owncast
 * YunoHost documentation for this app: https://yunohost.org/app_owncast
 * Report a bug: https://github.com/YunoHost-Apps/owncast_ynh/issues
 
