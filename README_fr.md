@@ -25,7 +25,7 @@ Owncast est un serveur de diffusion en direct et de chat open source, auto-hébe
 
 ## Configuration
 
-Les paramètres sont accessibles dans la page d'administration :  : `domain.ltd/admin` avec `admin` et `votre_stream_key` comme identifiant. 
+Vous pouvez configurer Owncast dans la page d'administration : `domain.ltd/admin` avec `admin` et `abc123` comme identifiant. N'oubliez pas de changer la clé de flux (Stream Key).
 
 ## Application de diffusion en continu
 
