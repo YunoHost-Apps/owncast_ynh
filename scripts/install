@@ -146,6 +146,9 @@ then
 	ynh_permission_update --permission="main" --add="visitors"
 fi
 
+# Only the admin can access the admin panel of the app (if the app has an admin panel)
+ynh_permission_create --permission="admin" --url="/admin" --auth_header=false
+
 #=================================================
 # RELOAD NGINX
 #=================================================
