@@ -64,10 +64,10 @@ echo "Handling asset at $asset_url"
 # Leave $src empty to ignore the asset
 case $asset_url in
   "owncast-"*"-linux-64bit.zip"*)
-    src="x86-64"
+    src="amd64"
     ;;
   "owncast-"*"-linux-arm7.zip"*)
-    src="arm7"
+    src="armhf"
     ;;
   "owncast-"*"-linux-arm64.zip"*)
     src="arm64"
