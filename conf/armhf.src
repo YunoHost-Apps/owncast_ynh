@@ -1,5 +1,5 @@
 SOURCE_URL=https://github.com/owncast/owncast/releases/download/v0.0.11/owncast-0.0.11-linux-arm7.zip
-SOURCE_SUM=
+SOURCE_SUM=68f4564f1e15a6b944b44808034a8bab6b4f74c6588302a55efae1768cdb391f
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=zip
 SOURCE_IN_SUBDIR=false
