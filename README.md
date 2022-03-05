@@ -17,7 +17,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Owncast is an open source, self-hosted, decentralized, single user live streaming and chat server for running your own live streams similar in style to the large mainstream options. It offers complete ownership over your content, interface, moderation and audience.
 
-**Shipped version:** 0.0.10~ynh2
+**Shipped version:** 0.0.11~ynh1
 
 **Demo:** https://watch.owncast.online/
 
