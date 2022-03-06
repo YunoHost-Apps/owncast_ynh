@@ -16,3 +16,9 @@ OBS can be used as streaming video app: https://obsproject.com/
 ## Standalone chat mode
 
 `https://live.domain.ltd/index-standalone-chat-readwrite.html`
+
+
+## Firefox and Chrome addon
+
+https://addons.mozilla.org/en-US/firefox/addon/owncast-extension/
+https://chrome.google.com/webstore/detail/owncast-extension/djgneammmklaajinkihpibdpaflehgio?hl=fr
