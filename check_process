@@ -1,6 +1,7 @@
 ;; Test complet
 	; Manifest
 		domain="domain.tld"
+		admin="john"
 		path="/path"
 		is_public=1
 	; Checks
