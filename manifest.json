@@ -6,7 +6,7 @@
         "en": "Self-hosted live video and web chat server for use with existing broadcasting software",
         "fr": "Serveur de vidéo en direct et de chat Web auto-hébergé à utiliser avec un logiciel de diffusion"
     },
-    "version": "0.0.12~ynh1",
+    "version": "0.0.13~ynh1",
     "url": "https://owncast.online/",
     "upstream": {
         "license": "MIT",
@@ -21,7 +21,7 @@
         "email": ""
     },
     "requirements": {
-        "yunohost": ">= 4.3.0"
+        "yunohost": ">= 11.0.9"
     },
     "multi_instance": false,
     "services": [
