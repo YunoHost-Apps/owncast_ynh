@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/owncast/owncast/releases/download/v0.0.12/owncast-0.0.12-linux-arm64.zip
-SOURCE_SUM=272bf1285eb176980eeb35d475bb55065f24a70934ef02492e081fdab9533ed2
+SOURCE_URL=https://github.com/owncast/owncast/releases/download/v0.0.13/owncast-0.0.13-linux-arm64.zip
+SOURCE_SUM=b2dba64cb815e32c9c2a242f9d870ad6be407b48cb0416a7e2c089f8965b14b5
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=zip
 SOURCE_IN_SUBDIR=false
