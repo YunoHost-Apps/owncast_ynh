@@ -5,15 +5,16 @@ It shall NOT be edited by hand.
 
 # Owncast pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/owncast.svg)](https://dash.yunohost.org/appci/app/owncast) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/owncast.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/owncast.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/owncast.svg)](https://dash.yunohost.org/appci/app/owncast) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/owncast.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/owncast.maintain.svg)
+
 [![Installer Owncast avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=owncast)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Owncast rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Owncast rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Owncast est un serveur de diffusion en direct et de chat open source, auto-hébergé, décentralisé et à utilisateur unique pour exécuter vos propres diffusions en direct dans un style similaire aux grandes options grand public. Il offre une propriété complète sur votre contenu, votre interface, votre modération et votre audience.
 
@@ -21,9 +22,9 @@ Owncast est un serveur de diffusion en direct et de chat open source, auto-hébe
 
 **Démo :** https://watch.owncast.online/
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Owncast](./doc/screenshots/owncast-screenshot.png)
+![Capture d’écran de Owncast](./doc/screenshots/owncast-screenshot.png)
 
 ## Avertissements / informations importantes
 
@@ -44,9 +45,9 @@ OBS peut être utilisé comme application de streaming vidéo : https://obsproje
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://owncast.online/>
-* Documentation officielle de l'admin : <https://owncast.online/docs/>
-* Dépôt de code officiel de l'app : <https://github.com/owncast/owncast>
+* Site officiel de l’app : <https://owncast.online/>
+* Documentation officielle de l’admin : <https://owncast.online/docs/>
+* Dépôt de code officiel de l’app : <https://github.com/owncast/owncast>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_owncast>
 * Signaler un bug : <https://github.com/YunoHost-Apps/owncast_ynh/issues>
 
@@ -62,4 +63,4 @@ ou
 sudo yunohost app upgrade owncast -u https://github.com/YunoHost-Apps/owncast_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
