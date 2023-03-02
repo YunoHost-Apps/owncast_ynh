@@ -6,8 +6,8 @@ After=network.target
 Type=simple
 User=__APP__
 Group=__APP__
-WorkingDirectory=__FINALPATH__/
-ExecStart=__FINALPATH__/owncast --enableVerboseLogging -webserverport __PORT__
+WorkingDirectory=__INSTALL_DIR__/
+ExecStart=__INSTALL_DIR__/owncast --enableVerboseLogging -webserverport __PORT__
 Restart=on-failure
 RestartSec=5
 
