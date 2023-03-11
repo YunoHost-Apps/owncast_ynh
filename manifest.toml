@@ -5,7 +5,7 @@ name = "Owncast"
 description.en = "Self-hosted live video and web chat server for use with existing broadcasting software"
 description.fr = "Serveur de vidéo en direct et de chat Web auto-hébergé à utiliser avec un logiciel de diffusion"
 
-version = "0.0.13~ynh3"
+version = "0.0.13~ynh4"
 
 maintainers = ["eric_G"]
 
