@@ -1,6 +1,6 @@
 ## Configuration
 
-Vous pouvez configurer Owncast dans la page d'administration : `domain.ltd/admin` avec `admin` et `abc123` comme identifiant. N'oubliez pas de changer la clé de flux (Stream Key).
+Vous pouvez configurer Owncast dans la page d'administration : `https://__DOMAIN__/admin` avec `admin` et `abc123` comme identifiant. N'oubliez pas de changer la clé de flux (Stream Key).
 
 ## Application de diffusion en continu
 
@@ -12,3 +12,7 @@ OBS peut être utilisé comme application de streaming vidéo : https://obsproje
 1. Entrez l'URL du serveur exécutant votre service de streaming au format `rtmp://myserver.net/live`.
 1. Saisissez votre « Stream key » qui correspond à votre clé de streaming choisie lors de l'installation.
 1. Appuyez sur **Démarrer le streaming** (OBS) ou **Go Live** (Streamlabs) sur OBS.
+
+## Mode de discussion autonome
+
+`https://__DOMAIN__/index-standalone-chat-readwrite.html`
