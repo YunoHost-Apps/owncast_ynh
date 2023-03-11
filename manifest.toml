@@ -54,7 +54,7 @@ ram.runtime = "50M"
         armhf.sha256 = "8f1e4a482f22baaaab20714fd3931b71115cddb8881a9d6e4c8d7b68c8a3724d"
 
         in_subdir = false
-        
+
     [resources.ports]
     stream.default = 1935
     stream.exposed = "TCP"
