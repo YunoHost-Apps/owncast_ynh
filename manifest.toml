@@ -62,11 +62,11 @@ ram.runtime = "50M"
 
     [resources.permissions]
     main.url = "/"
-    admin.url = "/admin"
-    admin.allowed = "admins"
+    #admin.url = "/admin"
+    #admin.allowed = "admins"
     #admin.show_tile = false
-    admin.auth_header = false
-    #main.auth_header = false
+    #admin.auth_header = false
+    main.auth_header = false
 
     [resources.apt]
     packages = "ffmpeg"
