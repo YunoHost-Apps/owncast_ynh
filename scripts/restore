@@ -43,7 +43,7 @@ yunohost service add $app --description="Self-hosted live video and web chat ser
 #=================================================
 ynh_script_progression --message="Reloading NGINX web server and $app's service..." --weight=10
 
-ynh_systemd_action --service_name=$app --action="start" --log_path="/var/log/$app/$app.log"
+ynh_systemd_action --service_name=$app --action="start" --log_path="systemd"
 sleep 20
 
 ynh_systemd_action --service_name=nginx --action=reload
