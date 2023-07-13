@@ -1,7 +1,3 @@
-## Configuration
-
-You can configure Owncast in the admin page: `https://__DOMAIN__/admin` with `admin` and `abc123` as credential. Don't forget to change the stream key.
-
 ## Streaming app
 
 OBS can be used as streaming video app: https://obsproject.com/
