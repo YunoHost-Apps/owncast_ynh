@@ -5,7 +5,7 @@ name = "Owncast"
 description.en = "Self-hosted live video and web chat server for use with existing broadcasting software"
 description.fr = "Serveur de vidéo en direct et de chat Web auto-hébergé à utiliser avec un logiciel de diffusion"
 
-version = "0.1.0~ynh2"
+version = "0.1.1~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -17,7 +17,7 @@ admindoc = "https://owncast.online/docs/"
 code = "https://github.com/owncast/owncast"
 
 [integration]
-yunohost = ">= 11.1.21"
+yunohost = ">= 11.2"
 architectures = ["amd64", "armhf", "arm64"]
 multi_instance = false
 ldap = false
@@ -44,13 +44,14 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        amd64.url = "https://github.com/owncast/owncast/releases/download/v0.1.0/owncast-0.1.0-linux-64bit.zip"
-        amd64.sha256 = "98e4c19911a77955cb1dbfc01b99dd6a3ad79d3c0fea13eb0a28ac7d0d415a5a"
-        arm64.url = "https://github.com/owncast/owncast/releases/download/v0.1.0/owncast-0.1.0-linux-arm64.zip"
-        arm64.sha256 = "ea2eb65f1d4c6e78318c93981b4708d11c77d768c23dd31f2abd3e8462dc2dda"
-        armhf.url = "https://github.com/owncast/owncast/releases/download/v0.1.0/owncast-0.1.0-linux-32bit.zip"
-        armhf.sha256 = "662419e3a9a4a6be75d42828c7208e5af6c729b0315a210412e8f2b2a5b56a50"
+        amd64.url = "https://github.com/owncast/owncast/releases/download/v0.1.1/owncast-0.1.1-linux-64bit.zip"
+        amd64.sha256 = "b90b7f4b5b88a8add06d6326056b9aae259da27b3c6a4b85467b474d947071d4"
+        arm64.url = "https://github.com/owncast/owncast/releases/download/v0.1.1/owncast-0.1.1-linux-arm64.zip"
+        arm64.sha256 = "fc9efdda966ffe521d84d2145d334ee17fda6bb8c08dfbe6cbc91745579aecb3"
+        armhf.url = "https://github.com/owncast/owncast/releases/download/v0.1.1/owncast-0.1.1-linux-32bit.zip"
+        armhf.sha256 = "8fb49c3525ff13c973d48085251b6b6d33a5584ac7c7b233f0c906c7219f6578"
         in_subdir = false
+        autoupdate.strategy = "latest_github_tag"
 
     [resources.ports]
     stream.default = 1935
