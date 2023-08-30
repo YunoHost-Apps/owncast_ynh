@@ -28,8 +28,6 @@ ram.runtime = "50M"
 
 [install]
     [install.domain]
-    help.en = "Owncast needs to be installed in a dedicated domain or sub-domain."
-    help.fr = "Owncast doit être installé dans un domaine ou sous-domaine dédié."
     type = "domain"
 
     [install.init_main_permission]
