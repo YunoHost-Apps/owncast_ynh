@@ -2,8 +2,8 @@ packaging_format = 2
 
 id = "owncast"
 name = "Owncast"
-description.en = "Self-hosted live video and web chat server for use with existing broadcasting software"
-description.fr = "Serveur de vidéo en direct et de chat Web auto-hébergé à utiliser avec un logiciel de diffusion"
+description.en = "Live video and web chat server for use with existing broadcasting software"
+description.fr = "Serveur de vidéo en direct et de chat Web à utiliser avec un logiciel de diffusion"
 
 version = "0.1.1~ynh1"
 
