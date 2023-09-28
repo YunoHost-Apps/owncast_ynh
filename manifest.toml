@@ -2,8 +2,8 @@ packaging_format = 2
 
 id = "owncast"
 name = "Owncast"
-description.en = "Self-hosted live video and web chat server for use with existing broadcasting software"
-description.fr = "Serveur de vidéo en direct et de chat Web auto-hébergé à utiliser avec un logiciel de diffusion"
+description.en = "Live video and web chat server for use with existing broadcasting software"
+description.fr = "Serveur de vidéo en direct et de chat Web à utiliser avec un logiciel de diffusion"
 
 version = "0.1.1~ynh1"
 
@@ -28,10 +28,7 @@ ram.runtime = "50M"
 
 [install]
     [install.domain]
-    help.en = "Owncast needs to be installed in a dedicated domain or sub-domain."
-    help.fr = "Owncast doit être installé dans un domaine ou sous-domaine dédié."
     type = "domain"
-    full_domain = true
 
     [install.init_main_permission]
     help.en = "If enabled, Owncast will be accessible by people who do not have an account. This can be changed later via the webadmin."
