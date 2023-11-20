@@ -48,7 +48,10 @@ ram.runtime = "50M"
         armhf.url = "https://github.com/owncast/owncast/releases/download/v0.1.1/owncast-0.1.1-linux-32bit.zip"
         armhf.sha256 = "8fb49c3525ff13c973d48085251b6b6d33a5584ac7c7b233f0c906c7219f6578"
         in_subdir = false
-        autoupdate.strategy = "latest_github_tag"
+        autoupdate.strategy = "latest_github_release"
+        autoupdate.asset.amd64 = ".*-linux-64bit.zip"
+        autoupdate.asset.arm64 = ".*-linux-arm64bit.zip"
+        autoupdate.asset.armhf = ".*-linux-32bit.zip"
 
     [resources.ports]
     stream.default = 1935
