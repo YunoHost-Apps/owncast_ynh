@@ -31,7 +31,7 @@ Owncast est un serveur de diffusion en direct et de chat open source, auto-hébe
 * Site officiel de l’app : <https://owncast.online/>
 * Documentation officielle de l’admin : <https://owncast.online/docs/>
 * Dépôt de code officiel de l’app : <https://github.com/owncast/owncast>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_owncast>
+* YunoHost Store: <https://apps.yunohost.org/app/owncast>
 * Signaler un bug : <https://github.com/YunoHost-Apps/owncast_ynh/issues>
 
 ## Informations pour les développeurs

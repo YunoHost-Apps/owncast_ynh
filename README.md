@@ -31,7 +31,7 @@ Owncast is an open source, self-hosted, decentralized, single user live streamin
 * Official app website: <https://owncast.online/>
 * Official admin documentation: <https://owncast.online/docs/>
 * Upstream app code repository: <https://github.com/owncast/owncast>
-* YunoHost documentation for this app: <https://yunohost.org/app_owncast>
+* YunoHost Store: <https://apps.yunohost.org/app/owncast>
 * Report a bug: <https://github.com/YunoHost-Apps/owncast_ynh/issues>
 
 ## Developer info
