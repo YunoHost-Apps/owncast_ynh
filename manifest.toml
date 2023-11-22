@@ -50,7 +50,7 @@ ram.runtime = "50M"
         in_subdir = false
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset.amd64 = ".*-linux-64bit.zip"
-        autoupdate.asset.arm64 = ".*-linux-arm64bit.zip"
+        autoupdate.asset.arm64 = ".*-linux-arm64.zip"
         autoupdate.asset.armhf = ".*-linux-32bit.zip"
 
     [resources.ports]
