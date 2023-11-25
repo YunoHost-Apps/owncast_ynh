@@ -20,10 +20,13 @@ code = "https://github.com/owncast/owncast"
 yunohost = ">= 11.2"
 architectures = ["amd64", "armhf", "arm64"]
 multi_instance = false
+
 ldap = false
+
 sso = false
+
 disk = "50M"
-ram.build = "50M"
+ram.build = "150M"
 ram.runtime = "50M"
 
 [install]
