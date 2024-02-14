@@ -7,7 +7,7 @@ description.fr = "Serveur de vidéo en direct et de chat Web à utiliser avec un
 
 version = "0.1.2~ynh1"
 
-maintainers = ["eric_G"]
+maintainers = []
 
 [upstream]
 license = "MIT"
