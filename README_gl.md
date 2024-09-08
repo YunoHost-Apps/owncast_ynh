@@ -5,7 +5,7 @@ NON debe editarse manualmente.
 
 # Owncast para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/owncast.svg)](https://dash.yunohost.org/appci/app/owncast) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/owncast.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/owncast.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/owncast.svg)](https://ci-apps.yunohost.org/ci/apps/owncast/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/owncast.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/owncast.maintain.svg)
 
 [![Instalar Owncast con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=owncast)
 
@@ -18,7 +18,7 @@ NON debe editarse manualmente.
 
 Owncast is an open source, self-hosted, decentralized, single user live streaming and chat server for running your own live streams similar in style to the large mainstream options. It offers complete ownership over your content, interface, moderation and audience.
 
-**Versión proporcionada:** 0.1.3~ynh1
+**Versión proporcionada:** 0.1.3~ynh2
 
 **Demo:** <https://watch.owncast.online/>
 
