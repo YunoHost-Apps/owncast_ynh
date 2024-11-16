@@ -55,10 +55,6 @@ ram.runtime = "50M"
         autoupdate.asset.arm64 = ".*-linux-arm64.zip"
         autoupdate.asset.armhf = ".*-linux-32bit.zip"
 
-    [resources.ports]
-    stream.default = 1935
-    stream.exposed = "TCP"
-
     [resources.system_user]
 
     [resources.install_dir]
@@ -68,5 +64,9 @@ ram.runtime = "50M"
     main.auth_header = false
     main.protect_against_basic_auth_spoofing = false
 
+    [resources.ports]
+    stream.default = 1935
+    stream.exposed = "TCP"
+    
     [resources.apt]
     packages = "ffmpeg"
