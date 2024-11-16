@@ -18,7 +18,7 @@ EZ editatu eskuz.
 
 Owncast is an open source, self-hosted, decentralized, single user live streaming and chat server for running your own live streams similar in style to the large mainstream options. It offers complete ownership over your content, interface, moderation and audience.
 
-**Paketatutako bertsioa:** 0.1.3~ynh2
+**Paketatutako bertsioa:** 0.1.3~ynh3
 
 **Demoa:** <https://watch.owncast.online/>
 
