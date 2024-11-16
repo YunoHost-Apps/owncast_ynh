@@ -62,11 +62,10 @@ ram.runtime = "50M"
     [resources.permissions]
     main.url = "/"
     main.auth_header = false
-    main.protect_against_basic_auth_spoofing = false
 
     [resources.ports]
     stream.default = 1935
     stream.exposed = "TCP"
-    
+
     [resources.apt]
     packages = "ffmpeg"
