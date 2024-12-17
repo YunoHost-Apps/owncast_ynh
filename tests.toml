@@ -6,4 +6,4 @@ test_format = 1.0
     # Tests to run
     # ------------
 
-    test_upgrade_from.5233d1027c.name = "Upgrade from 0.0.13"
+    test_upgrade_from.f01ea022a5d0104ab2749a83d8dd970e28bf04d3.name = "Upgrade from 0.1.3~ynh2"
