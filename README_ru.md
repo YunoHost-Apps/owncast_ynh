@@ -5,7 +5,9 @@
 
 # Owncast для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/owncast.svg)](https://ci-apps.yunohost.org/ci/apps/owncast/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/owncast.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/owncast.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/owncast)](https://ci-apps.yunohost.org/ci/apps/owncast/)
+![Состояние работы](https://apps.yunohost.org/badge/state/owncast)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/owncast)
 
 [![Установите Owncast с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=owncast)
 

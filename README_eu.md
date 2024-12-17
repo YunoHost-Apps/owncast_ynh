@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Owncast YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/owncast.svg)](https://ci-apps.yunohost.org/ci/apps/owncast/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/owncast.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/owncast.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/owncast)](https://ci-apps.yunohost.org/ci/apps/owncast/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/owncast)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/owncast)
 
 [![Instalatu Owncast YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=owncast)
 

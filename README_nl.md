@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # Owncast voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/owncast.svg)](https://ci-apps.yunohost.org/ci/apps/owncast/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/owncast.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/owncast.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/owncast)](https://ci-apps.yunohost.org/ci/apps/owncast/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/owncast)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/owncast)
 
 [![Owncast met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=owncast)
 

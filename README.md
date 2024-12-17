@@ -5,7 +5,9 @@ It shall NOT be edited by hand.
 
 # Owncast for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/owncast.svg)](https://ci-apps.yunohost.org/ci/apps/owncast/) ![Working status](https://ci-apps.yunohost.org/ci/badges/owncast.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/owncast.maintain.svg)
+[![Integration level](https://apps.yunohost.org/badge/integration/owncast)](https://ci-apps.yunohost.org/ci/apps/owncast/)
+![Working status](https://apps.yunohost.org/badge/state/owncast)
+![Maintenance status](https://apps.yunohost.org/badge/maintained/owncast)
 
 [![Install Owncast with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=owncast)
 
