@@ -20,7 +20,7 @@ Nie powinno być ono edytowane ręcznie.
 
 Owncast is an open source, self-hosted, decentralized, single user live streaming and chat server for running your own live streams similar in style to the large mainstream options. It offers complete ownership over your content, interface, moderation and audience.
 
-**Dostarczona wersja:** 0.1.3~ynh3
+**Dostarczona wersja:** 0.2.1~ynh1
 
 **Demo:** <https://watch.owncast.online/>
 
