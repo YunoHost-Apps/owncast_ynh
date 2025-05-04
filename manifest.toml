@@ -2,10 +2,10 @@ packaging_format = 2
 
 id = "owncast"
 name = "Owncast"
-description.en = "Live video and web chat server for use with existing broadcasting software"
-description.fr = "Serveur de vidéo en direct et de chat Web à utiliser avec un logiciel de diffusion"
+description.en = "Live video and web chat server"
+description.fr = "Serveur de vidéo en direct et de chat Web"
 
-version = "0.2.1~ynh1"
+version = "0.2.2~ynh1"
 
 maintainers = []
 
@@ -23,6 +23,7 @@ architectures = ["amd64", "armhf", "arm64"]
 multi_instance = false
 
 ldap = false
+
 sso = false
 
 disk = "50M"
@@ -44,17 +45,17 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        amd64.url = "https://github.com/owncast/owncast/releases/download/v0.2.1/owncast-0.2.1-linux-64bit.zip"
-        amd64.sha256 = "1fa64f22a2998aa37def571b1c6a2f789a3f45e99294c978b3b88f972ec5ac50"
-        arm64.url = "https://github.com/owncast/owncast/releases/download/v0.2.1/owncast-0.2.1-linux-arm64.zip"
-        arm64.sha256 = "8057a1a0dfdcfda3d553d39d5dc7e075006225fce27328a766069e05bdf106bf"
-        armhf.url = "https://github.com/owncast/owncast/releases/download/v0.2.1/owncast-0.2.1-linux-arm7.zip"
-        armhf.sha256 = "ad2018eaa85dd53dff3f29fb45bed1a9f16b0b86c37b1db3018efb7c6362cb11"
+        amd64.url = "https://github.com/owncast/owncast/releases/download/v0.2.2/owncast-0.2.2-linux-64bit.zip"
+        amd64.sha256 = "9ff30bdc15002f97ae98c87de462287d454ea7e5c3bc9c43d0fead2b8b565ec9"
+        arm64.url = "https://github.com/owncast/owncast/releases/download/v0.2.2/owncast-0.2.2-linux-arm64.zip"
+        arm64.sha256 = "8f19398a35696f7cf942304b30d12fc09d43e4c0478f9aa269c661a0c51c1a87"
+        armhf.url = "https://github.com/owncast/owncast/releases/download/v0.2.2/owncast-0.2.2-linux-arm7.zip"
+        armhf.sha256 = "9d7d08c133745dfe5d8eaf64e07f027a78b840619620283308e57d8214861fe9"
         in_subdir = false
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset.amd64 = ".*-linux-64bit.zip"
         autoupdate.asset.arm64 = ".*-linux-arm64.zip"
-        autoupdate.asset.armhf = ".*-linux-32bit.zip"
+        autoupdate.asset.armhf = ".*-linux-arm7.zip"
 
     [resources.system_user]
 
