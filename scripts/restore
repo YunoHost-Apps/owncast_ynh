@@ -1,6 +1,5 @@
 #!/bin/bash
 
-source ../settings/scripts/_common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
@@ -29,8 +28,7 @@ yunohost service add $app --description="Self-hosted live video and web chat ser
 #=================================================
 ynh_script_progression "Reloading NGINX web server and $app's service..."
 
-ynh_systemctl --service=$app --action="start" --log_path="systemd"
-sleep 20
+ynh_systemctl --service=$app --action="start"
 
 ynh_systemctl --service=nginx --action=reload
 
