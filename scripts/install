@@ -33,8 +33,7 @@ yunohost service add $app --description="Self-hosted live video and web chat ser
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
 
-ynh_systemctl --service=$app --action="start" --log_path="systemd"
-sleep 20
+ynh_systemctl --service=$app --action="start"
 
 #=================================================
 # END OF SCRIPT
