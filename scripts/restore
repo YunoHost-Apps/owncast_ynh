@@ -21,7 +21,7 @@ systemctl enable $app.service --quiet
 
 ynh_restore "/etc/logrotate.d/$app"
 
-yunohost service add $app --description="Self-hosted live video and web chat server" --log="/var/log/$app/$app.log" --needs_exposed_ports="$port_stream"
+yunohost service add $app --description="Live video and web chat server" --log="/var/log/$app/$app.log" --needs_exposed_ports="$port_stream"
 
 #=================================================
 # RELOAD NGINX AND PHP-FPM OR THE APP SERVICE
