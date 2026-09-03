@@ -33,7 +33,7 @@ ynh_config_add_systemd
 
 ynh_config_add_logrotate
 
-yunohost service add $app --description="Self-hosted live video and web chat server" --log="/var/log/$app/$app.log" --needs_exposed_ports="$port_stream"
+yunohost service add $app --description="Live video and web chat server" --log="/var/log/$app/$app.log" --needs_exposed_ports="$port_stream"
 
 #=================================================
 # START SYSTEMD SERVICE
